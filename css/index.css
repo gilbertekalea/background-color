@@ -1,0 +1,74 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: Linear-gradient (to right, red, yellow);
+    height: 100%;
+}
+
+h1 {
+    font-family: 600 3.5em Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, .5);
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+.h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: .015em;
+}
+
+.h4 {
+    font-family: 600 3.5em Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: .15em;
+}
+
+.element {
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+button {
+    width: 70px;
+    margin-top: 1px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+input {
+    margin-top: 80px;
+    width: 5%;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 15px;
+}
+li {
+    list-style-type: none;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+
